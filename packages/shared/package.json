@@ -1,21 +1,23 @@
 {
-    "name": "@monorepo-example/shared",
-    "version": "1.0.0",
-    "description": "Shared package being part of a monorepo example",
-    "author": "Dimitri Hooftman",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "files": [ "dist" ],
-    "scripts": {
-      "build": "tsc -b tsconfig.json"
-    },
-    "devDependencies": {
-      "typescript": "3.5.3"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/HooftmanD/monorepo-example.git",
-      "directory": "packages/shared"
-    },
-    "license": "MIT"
+  "name": "@monorepo-example/shared",
+  "version": "1.0.1",
+  "description": "Shared package being part of a monorepo example",
+  "author": "Dimitri Hooftman",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HooftmanD/monorepo-example.git",
+    "directory": "packages/shared"
+  },
+  "license": "MIT"
 }
