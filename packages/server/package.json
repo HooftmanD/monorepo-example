@@ -22,6 +22,5 @@
     "url": "https://github.com/HooftmanD/monorepo-example.git",
     "directory": "packages/server"
   },
-  "license": "MIT",
-  "gitHead": "d7f05317ad73d50c6bd0450680636337d93a8f48"
+  "license": "MIT"
 }
