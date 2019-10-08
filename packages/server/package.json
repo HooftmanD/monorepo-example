@@ -1,6 +1,6 @@
 {
   "name": "monorepo-example-server",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Server package being part of a monorepo example",
   "author": "Dimitri Hooftman",
   "main": "./dist/index.js",
