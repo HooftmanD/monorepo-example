@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-example/shared",
+  "name": "monorepo-example-shared",
   "version": "1.0.1",
   "description": "Shared package being part of a monorepo example",
   "author": "Dimitri Hooftman",
@@ -19,5 +19,6 @@
     "url": "https://github.com/HooftmanD/monorepo-example.git",
     "directory": "packages/shared"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "147ced994797dc797626a2a8a3edc58d86595046"
 }
