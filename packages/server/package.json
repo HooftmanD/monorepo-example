@@ -1,6 +1,11 @@
 {
     "name": "@monorepo-example/server",
     "version": "1.0.0",
+    "description": "Server package being part of a monorepo example",
+    "author": "Dimitri Hooftman",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [ "dist" ],
     "scripts": {
       "build": "tsc -b tsconfig.json"
     },
@@ -8,6 +13,12 @@
       "@monorepo-example/shared": "1.0.0"
     },
     "devDependencies": {
-      "typescript": "^3.5.3"
-    }
+      "typescript": "3.5.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/HooftmanD/monorepo-example.git",
+      "directory": "packages/server"
+    },
+    "license": "MIT"
 }
