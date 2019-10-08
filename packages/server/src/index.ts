@@ -1,3 +1,3 @@
-import { log } from "../../shared/src";
+import { log } from "../../shared";
 
 log("Hello world!");
