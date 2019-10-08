@@ -1,0 +1,13 @@
+{
+    "name": "@monorepo-example/server",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "tsc -b tsconfig.json"
+    },
+    "dependencies": {
+      "@monorepo-example/shared": "1.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^3.5.3"
+    }
+}
